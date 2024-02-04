@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Blank </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-button (click)="openModal()" expand="full">Open Modal</ion-button>
+
+  <ion-button (click)="openTransparentModal()" expand="full" color="secondary"
+    >Open Transparent Modal</ion-button
+  >
+
+  <ion-button (click)="openPopover($event)" expand="full" color="tertiary"
+    >Open Popover</ion-button
+  >
+</ion-content>

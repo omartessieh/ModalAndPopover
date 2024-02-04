@@ -1,0 +1,7 @@
+{
+  "name": "ModalandPopover",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
